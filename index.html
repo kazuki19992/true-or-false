@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>マルバツクイズ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<!-- <body onload="countdown()"> -->
+
+<body>
+    <section id="contents">
+        <h1 id="title"></h1>
+        <p id="question"></p>
+        <table id="info">
+            <tr>
+                <td class="side_td">
+                    <p class="th">コンボ</p>
+                    <p id="combo"></p>
+                </td>
+                <td id="center_td">
+                    <p id="time"></p>
+                </td>
+                <td class="side_td">
+                    <p id="point_th"></p>
+                    <p id="pts"></p>
+                </td>
+            </tr>
+        </table>
+        <div id="ans-btn">
+            <a href="javascript:void(0)" class="button" onclick="answer(1)">○</a>
+            <a href="javascript:void(0)" class="button" onclick="answer(0)">×</a>
+        </div>
+    </section>
+
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

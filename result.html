@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>マルバツクイズ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+
+<body onload="countdown()">
+    <h1 id="title">結果発表！</h1>
+    <div>
+        <table>
+            <tr>
+                <td>出題問題数</td>
+                <td>
+                    <p class="problem_num"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>正解数</td>
+                <td>
+                    <p class="correct"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>最終コンボ数</td>
+                <td>
+                    <p class="last_combo"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>スコア</td>
+                <td>
+                    <p class="score"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
